@@ -1,0 +1,10 @@
+.hero { background-image: linear-gradient(90deg, rgba(11,38,34,.88), rgba(11,38,34,.42)), url("site-images/7C07EDAA-C18F-4CB9-94B4-92A5ADC881DE (1).png"); }
+.food { background-image: url("site-images/545974D8-3C29-4AC9-BB40-660DECC2C277.jpeg"); }
+.school { background-image: url("site-images/785704A8-5B59-4780-8D0E-D59AA9C83E83 (1).jpeg"); }
+.community { background-image: url("site-images/95947984-864B-4554-9078-F3564BB40C8C.jpeg"); }
+.impact-photo { background-image: url("site-images/95947984-864B-4554-9078-F3564BB40C8C.jpeg"); background-position: center; }
+.brand-logo { width: 48px; height: 48px; object-fit: contain; border-radius: 50%; background: white; padding: 2px; }
+@media (max-width: 850px) {
+  .langs { display: flex; }
+  .lang { display: inline-block; }
+}

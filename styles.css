@@ -1,0 +1,181 @@
+/* ================================
+   RESPONSIVE - TELEFÒN
+   ================================ */
+
+@media (max-width: 768px) {
+
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+  header {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  /* LANG BUTTONS */
+  .langs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .langs button {
+    font-size: 13px;
+    padding: 7px 10px;
+  }
+
+  /* HERO */
+  .hero {
+    min-height: 600px;
+    width: 100%;
+    padding: 80px 20px 60px;
+    box-sizing: border-box;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    line-height: 1.1;
+    max-width: 100%;
+  }
+
+  .hero p {
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+  .hero .button {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* SECTIONS */
+  section {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  /* TITLES */
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* GRID */
+  .grid,
+  .cards,
+  .features,
+  .actions,
+  .gallery {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* IMAGES */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* GALLERY */
+  .gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* DONATION */
+  .donation,
+  .donation-section,
+  .donation-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* BUTTONS */
+  button,
+  .button {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+
+
+/* ================================
+   TI TELEFÒN
+   ================================ */
+
+@media (max-width: 480px) {
+
+  .hero {
+    padding: 65px 16px 50px;
+    min-height: 550px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .langs {
+    gap: 5px;
+  }
+
+  .langs button {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+}
