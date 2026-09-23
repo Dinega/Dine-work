@@ -1,10 +1,194 @@
-.hero { background-image: linear-gradient(90deg, rgba(11,38,34,.88), rgba(11,38,34,.42)), url("site-images/7C07EDAA-C18F-4CB9-94B4-92A5ADC881DE (1).png"); }
-.food { background-image: url("site-images/545974D8-3C29-4AC9-BB40-660DECC2C277.jpeg"); }
-.school { background-image: url("site-images/785704A8-5B59-4780-8D0E-D59AA9C83E83 (1).jpeg"); }
-.community { background-image: url("site-images/95947984-864B-4554-9078-F3564BB40C8C.jpeg"); }
-.impact-photo { background-image: url("site-images/95947984-864B-4554-9078-F3564BB40C8C.jpeg"); background-position: center; }
-.brand-logo { width: 48px; height: 48px; object-fit: contain; border-radius: 50%; background: white; padding: 2px; }
+/* ================================
+   NAZ FOUNDATION - IMAGE STYLES
+   ================================ */
+
+.hero {
+  background-image:
+    linear-gradient(90deg, rgba(11, 38, 34, .88), rgba(11, 38, 34, .42)),
+    url("site-images/7C07EDAA-C18F-4CB9-94B4-92A5ADC881DE (1).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.food {
+  background-image:
+    linear-gradient(180deg, rgba(11, 38, 34, .08), rgba(11, 38, 34, .88)),
+    url("site-images/545974D8-3C29-4AC9-BB40-660DECC2C277.jpeg");
+}
+
+.school {
+  background-image:
+    linear-gradient(180deg, rgba(11, 38, 34, .08), rgba(11, 38, 34, .88)),
+    url("site-images/785704A8-5B59-4780-8D0E-D59AA9C83E83 (1).jpeg");
+}
+
+.community {
+  background-image:
+    linear-gradient(180deg, rgba(11, 38, 34, .08), rgba(11, 38, 34, .88)),
+    url("site-images/95947984-864B-4554-9078-F3564BB40C8C.jpeg");
+}
+
+.impact-photo {
+  background-image:
+    linear-gradient(180deg, rgba(11, 38, 34, .10), rgba(11, 38, 34, .65)),
+    url("site-images/95947984-864B-4554-9078-F3564BB40C8C.jpeg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ================================
+   TEXT SOU FOTO PROGRAM YO
+   ================================ */
+
+.food,
+.school,
+.community {
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 430px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Tout sa ki andedan card la rete anlè foto a */
+.food > *,
+.school > *,
+.community > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Fè tèks la pi fasil pou li */
+.food::after,
+.school::after,
+.community::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(8, 30, 26, .92) 0%,
+    rgba(8, 30, 26, .50) 45%,
+    rgba(8, 30, 26, .05) 100%
+  );
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Tit yo */
+.food h3,
+.school h3,
+.community h3 {
+  position: relative;
+  z-index: 3;
+
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Deskripsyon yo */
+.food p,
+.school p,
+.community p {
+  position: relative;
+  z-index: 3;
+
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+/* Icon ki sou foto yo */
+.food .icon,
+.school .icon,
+.community .icon {
+  position: relative;
+  z-index: 3;
+}
+
+/* Logo */
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: white;
+  padding: 2px;
+}
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+
 @media (max-width: 850px) {
-  .langs { display: flex; }
-  .lang { display: inline-block; }
+
+  .langs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lang {
+    display: inline-block;
+  }
+
+  .food,
+  .school,
+  .community {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .food,
+  .school,
+  .community {
+    min-height: 380px;
+    background-position: center;
+  }
+
+  .food h3,
+  .school h3,
+  .community h3 {
+    font-size: 1.35rem;
+  }
+
+  .food p,
+  .school p,
+  .community p {
+    font-size: .95rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .food,
+  .school,
+  .community {
+    min-height: 360px;
+  }
+
+  .food h3,
+  .school h3,
+  .community h3 {
+    font-size: 1.2rem;
+  }
+
+  .food p,
+  .school p,
+  .community p {
+    font-size: .9rem;
+  }
 }
