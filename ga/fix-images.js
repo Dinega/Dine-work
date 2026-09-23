@@ -6,7 +6,7 @@ const sitePhotos = [
   "site-images/PHOTO-2026-09-17-23-05-04.jpg",
   "site-images/PHOTO-2026-09-17-23-05-06.jpg",
   "site-images/PHOTO-2026-09-17-23-05-09.jpg",
-  "site-images/PHOTO-2026-09-17-23-14-52.jpg",
+  "site-images/photo.jpg",
   "site-images/PHOTO-2026-09-17-23-05-06-05.jpg",
   "site-images/PHOTO-2026-09-17-23-05-07.jpg",
   "site-images/photo3.jpg",
