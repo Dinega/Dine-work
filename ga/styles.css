@@ -952,101 +952,86 @@ body address,
 body button {
   color: #162e2b;
   /* =========================
-    /* =========================
-    EKRI BLAN SOU PREMYE FOTO A
- ========================= */
-
-/* =========================
-   PAJ AKEY — EKRI BLAN
+   EKRI NWA SOU PREMYE FOTO A
 ========================= */
 
 .hero h1 {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .hero p {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .hero .eyebrow {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
-/* Bouton ki nan Hero a */
 .hero .button {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
-/* =========================
-   MENU ANLÈ — EKRI NWA
-========================= */
+/* Si gen lòt ekriti nan Hero a */
+.hero span,
+.hero strong,
+.hero small {
+  color: #000000 !important;
+}
 
+/* Header ki parèt anlè premye foto a */
 header .brand strong,
 header .brand small,
 header nav a,
 header .lang {
   color: #000000 !important;
-  /* =========================
-/* =========================
-GALLERY — FOTO YO PA KOUPE
-========================= */
+  /* =========================================
+   GALLERY — FOTO YO PI GWO SOU TELEFÒN
+   SAN YO PA KOUPE
+========================================= */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
 
 .gallery img {
   width: 100%;
-  height: auto;
-  max-width: 100%;
+  height: 360px;
   object-fit: contain;
   object-position: center;
   display: block;
+  background: #f8f5ee;
+  border-radius: 18px;
 }
 
-/* =========================
-TABLET
-========================= */
-
+/* TABLET */
 @media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .gallery img {
+    height: 360px;
+  }
+}
+
+/* TELEFÒN */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
   .gallery img {
     width: 100%;
-    height: auto;
-    max-width: 100%;
+    height: 550px;
     object-fit: contain;
     object-position: center;
+    border-radius: 18px;
   }
 }
-
-/* =========================
-TELEFÒN
-========================= */
-
-@media (max-width: 600px) {
-  .gallery img {
-    width: 100%;
-    height: auto !important;
-    max-width: 100%;
-    max-height: none;
-    object-fit: contain !important;
-    object-position: center;
-    display: block;
-  }
 }
-
-/* =========================
-VERY SMALL PHONES
-========================= */
-
-@media (max-width: 380px) {
-  .gallery img {
-    width: 100%;
-    height: auto !important;
-    max-width: 100%;
-    max-height: none;
-    object-fit: contain !important;
-    object-position: center;
-  }
 }
-
-}
-  }
-
-
-
