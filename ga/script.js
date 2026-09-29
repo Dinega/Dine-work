@@ -78,6 +78,14 @@ const translations = {
       "Ensemble, nous continuons à apporter soutien et dignité.",
     galleryDesc9:
       "Éducation, solidarité et espoir pour un avenir meilleur.",
+    communityBelief:
+      "Nous croyons en la force de la communauté pour apporter un changement positif.",
+    photo2Desc:
+      "chaque geste simple peut apporter un sourire sur le visage d'un enfant.",
+    photo3Desc:
+      "Ensemble, nous bâtissons une communauté plus solide et remplie d'espoir.",
+    photo4Desc:
+      "Chaque contribution apporte une différence réelle dans la vie des familles.",
 
     donationOverline: "DONNEZ DE L’ESPOIR AUJOURD’HUI",
     donationTitle: "Un don, c’est dire : « Je suis avec vous. »",
@@ -177,7 +185,14 @@ const translations = {
       "Together, we continue to bring support and dignity.",
     galleryDesc9:
       "Education, solidarity, and hope for a better future.",
-
+    communityBelief:
+      "We believe in the power of community to bring about positive change.",
+    photo2Desc:
+      "every simple gesture can bring a smile to a child's face.",
+    photo3Desc:
+      "Together, we are building a stronger and more hopeful community.",
+    photo4Desc:
+      "Every contribution makes a real difference in the lives of families.",
     donationOverline: "GIVE HOPE TODAY",
     donationTitle: "A donation says: “I am here with you.”",
     donationText:
@@ -276,7 +291,14 @@ const translations = {
       "Juntos, seguimos brindando apoyo y dignidad.",
     galleryDesc9:
       "Educación, solidaridad y esperanza para un futuro mejor.",
-
+    communityBelief:
+      "Creemos en el poder de la comunidad para generar un cambio positivo.",
+    photo2Desc:
+      "cada gesto simple puede traer una sonrisa al rostro de un niño.",
+    photo3Desc:
+      "Juntos estamos construyendo una comunidad más fuerte y esperanzadora.",
+    photo4Desc:
+      "Cada contribución marca una diferencia real en la vida de las familias.",
     donationOverline: "DA ESPERANZA HOY",
     donationTitle:
       "Una donación significa decir: «Estoy aquí con ustedes.»",
