@@ -9,7 +9,11 @@ const sitePhotos = [
   "site-images/photo.jpg",
   "site-images/PHOTO-2026-09-17-23-05-06-05.jpg",
   "site-images/PHOTO-2026-09-17-23-05-07.jpg",
-  "site-images/lopital.jpg"
+  "site-images/lopital.jpg",
+  "site-images/jn.jpeg",
+  "site-images/jnjn.jpeg",
+  "site-images/pap.jpeg",
+  "site-images/sr.jpeg"
 ];
 
 document.querySelectorAll(".gallery img").forEach((image, index) => {
